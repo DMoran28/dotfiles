@@ -1,0 +1,16 @@
+# Theme
+font-family = Cascadia Code NF
+theme = light:catppuccin-macchiato, dark:catppuccin-mocha
+
+# Cursor
+cursor-style = underline
+mouse-hide-while-typing = true
+
+# Window
+background-blur = true
+background-opacity = 0.9
+maximize = true
+
+# Application
+auto-update = off
+macos-icon = xray
