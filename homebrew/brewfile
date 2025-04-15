@@ -1,0 +1,12 @@
+# Packages
+brew "git"
+brew "starship"
+
+# Applications
+cask "ghostty"
+cask "google-chrome"
+cask "spotify"
+cask "whatsapp"
+
+# Fonts
+cask "font-cascadia-code-nf"
