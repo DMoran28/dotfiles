@@ -1,0 +1,31 @@
+# Plugins
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+bindkey "^[[Z" autosuggest-accept
+
+FPATH=/opt/homebrew/share/zsh-completions:$FPATH
+autoload -Uz compinit && compinit
+
+export LS_COLORS="di=34:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43"
+alias ls="ls --color"
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ":completion:*" matcher-list "m:{a-z}={A-Za-z}"
+
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_STYLES[path]=none
+
+# History
+HISTSIZE=5000
+SAVEHIST=$HISTSIZE
+
+setopt APPEND_HISTORY
+setopt HIST_FIND_NO_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_IGNORE_ALL_DUPS
+setopt SHARE_HISTORY
+
+bindkey "^[[1;3A" history-search-backward
+bindkey "^[[1;3B" history-search-forward
+
+# Prompt
+export STARSHIP_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/starship/config"
+eval "$(starship init zsh)"
