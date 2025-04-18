@@ -27,5 +27,5 @@ bindkey "^[[1;3A" history-search-backward
 bindkey "^[[1;3B" history-search-forward
 
 # Prompt
-export STARSHIP_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/starship/config"
+export STARSHIP_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/starship/starship.toml"
 eval "$(starship init zsh)"
