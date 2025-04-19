@@ -34,7 +34,7 @@ format = "[ $time](fg:#a0a9cb) "
 
 [cmd_duration]
 min_time = 1000
-format = "[󰔟 $duration](fg:#a0a9cb) [󰅁](fg:#394260) "
+format = "[󰔟 $duration](fg:#a0a9cb) [󰅁](fg:#769ff0) "
 
 [character]
 format = " $symbol "
