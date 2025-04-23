@@ -1,5 +1,5 @@
 # Theme
-font-family = Cascadia Code NF
+font-family = CaskaydiaCove Nerd Font
 theme = light:catppuccin-macchiato, dark:catppuccin-mocha
 
 # Cursor

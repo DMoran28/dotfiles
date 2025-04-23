@@ -14,4 +14,4 @@ cask "spotify"
 cask "whatsapp"
 
 # Fonts
-cask "font-cascadia-code-nf"
+cask "font-caskaydia-cove-nerd-font"
