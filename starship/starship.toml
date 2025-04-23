@@ -1,7 +1,7 @@
 format = """
 [](fg:#a3aed2)\
-[](fg:#090c0c bg:#a3aed2)\
-[](fg:#a3aed2 bg:#5173b8)\
+[ ](fg:#090c0c bg:#a3aed2)\
+[](fg:#a3aed2 bg:#5173b8)\
 $directory\
 [](fg:#5173b8 bg:#394260)\
 $git_branch\
@@ -15,7 +15,7 @@ $character"""
 [directory]
 truncation_length = 5
 truncation_symbol = "…/"
-format = "[  $path ](fg:#e3e5e5 bg:#5173b8)"
+format = "[   $path ](fg:#e3e5e5 bg:#5173b8)"
 
 [git_branch]
 symbol = ""
@@ -30,11 +30,11 @@ symbol = " "
 [time]
 disabled = false
 time_format = "%T"
-format = "[ $time](fg:#a0a9cb) "
+format = "[ $time](fg:#a0a9cb) "
 
 [cmd_duration]
 min_time = 1000
-format = "[󰔟 $duration](fg:#a0a9cb) [󰅁](fg:#769ff0) "
+format = "[󰔟 $duration](fg:#a0a9cb) [](fg:#769ff0) "
 
 [character]
 format = " $symbol "
