@@ -1,6 +1,6 @@
 # Theme
 font-family = CaskaydiaCove Nerd Font
-theme = light:catppuccin-macchiato, dark:catppuccin-mocha
+theme = catppuccin-macchiato
 
 # Cursor
 cursor-style = underline

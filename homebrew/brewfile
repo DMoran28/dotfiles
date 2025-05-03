@@ -1,5 +1,6 @@
 # Packages
 brew "git"
+brew "nvim"
 
 # Plugins
 brew "starship"
