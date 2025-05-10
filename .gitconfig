@@ -1,0 +1,17 @@
+[alias]
+	glog = log --all --decorate --graph --oneline
+	st = status --short
+
+[commit]
+	gpgsign = true
+
+[gpg]
+	format = ssh
+
+[init]
+	defaultBranch = main
+
+[user]
+	name = <NAME>
+	email = <EMAIL>
+	signingkey = <HOME>/.ssh/id_ed25519.pub
