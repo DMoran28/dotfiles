@@ -22,6 +22,7 @@ symbol = ""
 format = "[ $symbol $branch ](fg:#769ff0 bg:#394260)"
 
 [git_status]
+deleted = ""
 format = "[$all_status$ahead_behind](fg:#769ff0 bg:#394260)"
 
 [fill]
